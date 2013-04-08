@@ -1,11 +1,11 @@
 <?php
 	$code = $_GET['code'];
 	if($code){
-		$url = "https://foursquare.com/oauth2/access_token?client_id=RPDGSYODY5PV43QBK0VAEIEHDT3J5XQWCTCVUMRBUG3MFPK1&client_secret=OTIARNLSZOFHAXHCTLWG2VGOHXBJNAUJGOWIGS5LTDN5QJW4&grant_type=authorization_code&redirect_uri=http://rak.ulyssespopple.com/auth.php&code=".$code;
+		$url = "https://foursquare.com/oauth2/access_token?client_id=[id excludec]&client_secret=[secret excluded]&grant_type=authorization_code&redirect_uri=http://rak.ulyssespopple.com/auth.php&code=".$code;
 		
 		$response = get_json_as_array($url);
 		$token = $response[access_token];
-		$user_req = get_json_as_array("https://api.foursquare.com/v2/users/self?oauth_token=" . $token . "&v=20120929");
+		$user_req = get_json_as_array("https://api.foursquare.com/v2/users/self?oauth_token=" . $token . "&v=[excluded]");
 		$user = $user_req[response][user];
 	}
    
