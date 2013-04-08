@@ -1,0 +1,94 @@
+.container{
+	width: 500px;
+	margin: 40px auto;
+	
+	font-family: 'Archivo Narrow', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+form{
+	width: 300px;
+	margin: 30px auto;
+}
+
+fieldset{
+	border-radius: 5px;
+	padding: 10px; 
+	padding-top: 15px;
+	margin: 20px auto;
+}
+
+label{
+	display: block;
+	text-align:center;
+	margin: 20px auto;
+	font-size: 18px;
+}
+
+input {
+  border:1px solid #ccc;
+  font-size:20px;
+  width:300px;
+  min-height:30px;
+  display:block;
+  margin-bottom:15px;
+  margin-top:5px;
+  outline: none;
+}
+
+.lead{
+	font-size: 24px;
+}
+
+.stats{
+	vertical-align: top;
+}
+
+.stats div{
+	vertical-align: top;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	font-size: 20px;
+	top: 20px;
+}
+
+#venueName{
+	top: 5px;
+	font-weight: bold;
+}
+
+#venueHereNow, #venueRAKs{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#RAKDate {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#message{
+	width: 300px;
+	max-width: 300px;
+	font-size: 18px;
+	font-family: 'Archivo Narrow', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#dollar_display{
+	text-align: center;
+	font-size: 32px;
+	color: #0080CC;
+}
+
+#RAK_submit{
+	position: relative;
+	display:block;
+	margin: auto;
+	margin-left: 15px;
+	width: 300px;
+	font-size: 22px;
+	letter-spacing: 5px;
+}
+
+#latestRAK{
+	width: 49%;
+}

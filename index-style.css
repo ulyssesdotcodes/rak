@@ -1,0 +1,43 @@
+.container{
+	width: 500px;
+	margin: 40px auto;
+	
+	font-family: 'Archivo Narrow', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.lead{
+	font-size: 52px;
+	letter-spacing: 3px;
+	
+}
+
+#arrow{
+	position:relative;
+	display:block;
+	top:-80px;
+	left: 80px;
+	clear:none;
+}
+
+#foursq{
+	position:relative;
+	display:block;
+	top: -280px;
+}
+
+#stick_figure{
+	
+}
+
+.btn-container{
+	position:relative;
+	clear:none;
+	top: -300px;
+	left: 250px;
+	font-size: 18px;
+}
+
+.btn{
+	margin-bottom: 10px;
+	font-size: 26px;
+}
